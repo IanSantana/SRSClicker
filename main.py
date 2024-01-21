@@ -18,7 +18,7 @@ usuario.submit()
 j = 0
 valor = 1
 while(j < 11):
-    time.sleep(2)
+    time.sleep(30)
     browser.get('https://servicosredessociais.com.br/orders/all/' + str(j))
     
         #preparaSearch = '/html/body/div/div/div/div/table/tbody/tr[valor]/td[10]/div/a'
